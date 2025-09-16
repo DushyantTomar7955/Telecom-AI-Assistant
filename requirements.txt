@@ -1,12 +1,11 @@
-streamlit
 langchain
 langchain-community
+langchain-mistralai
 mistralai
-python-dotenv
-faiss-cpu
 sentence-transformers
-pypdf
-tqdm
+faiss-cpu
+streamlit
+
 
 
 

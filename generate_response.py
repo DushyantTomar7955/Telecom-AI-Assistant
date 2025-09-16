@@ -4,7 +4,7 @@ import logging
 from dotenv import load_dotenv
 from langchain_community.vectorstores import FAISS
 from langchain_community.embeddings import HuggingFaceEmbeddings
-from langchain_mistralai import ChatMistralAI
+from langchain_mistralai.chat_models import ChatMistralAI
 from langchain.chains import RetrievalQA
 from langchain.prompts import PromptTemplate
 from pydantic import BaseModel, ConfigDict
